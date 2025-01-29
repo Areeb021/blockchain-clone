@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 240, 240, 0.829);
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: rgba(250, 247, 247, 0.842);
+    font-size: 26px;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    position: fixed;
+    top: 0;
+
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 9px;
+    list-style: none;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right:10px ;
+}
+nav ul li:hover{
+    color: white;
+    
+}
+.nam{
+    color: white;
+    font-weight: bold;
+}
+.lefts{
+    position: relative;
+    left: 240px;
+    bottom: 3px;
+    padding-left: 7px;
+}
+.log{
+    height: 45px;
+    width: 80px;
+    border: 2.5px solid white;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight:400;
+}
+.b1{
+    background-color: black;
+    width: 70px;
+}
+.b2{
+    color: black;
+    background-color:white ;
+    border: none;
+    margin-left: 8px;
+}
+.hero-section {
+        background: linear-gradient(105deg, #022850 0%, #164892 60%, #7405be 100%);
+        color: white;
+        padding: 180px 20px;
+        padding-left:100px;
+        
+        
+        height: 600px;
+        font-size: 26px;
+        font-weight: 500;
+}
+.u-hero{
+    font-size: 49px;
+    font-weight: bold;
+}
+.email{
+    position: relative;
+    top: 45px;
+    
+}
+input{
+    height: 45px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgba(207, 233, 255, 0.507);
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+.e-btn{
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    margin-left: 10px;
+    color: #236fe2;
+    font-weight: 600;
+}
+.cards{
+    display: flex;
+    position: relative;
+    bottom: 75px;
+    
+    
+}
+.c1{
+    width: 240px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 50px;
+
+}
+.banner1{
+    height: 800px;
+    background-color: #e0dbff;
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+}
+.banner2{
+    height: 800px;
+    background-color: #cfe6fc;
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+}
+.banner3{
+    height: 800px;
+    background-color: #e7ebec;
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+}
+.banner4{
+    height: 800px;
+    background-color: #fadbbee5;
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+}
+
