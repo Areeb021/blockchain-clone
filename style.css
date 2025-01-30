@@ -8,6 +8,10 @@ body{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(240, 240, 240, 0.829);
+    
+        overflow-x: hidden;
+    
+    
 }
 .navbar{
     height: 80px;
@@ -20,6 +24,7 @@ body{
     display: flex;
     position: fixed;
     top: 0;
+    z-index: 1000;
 
 
 }
@@ -161,4 +166,67 @@ input::placeholder{
 
     border-radius: 10px;
 }
+.fa-search{
+    margin: 2px;
+}
+.footer{
+    height: 80vh;
+    
+    color: rgba(179, 179, 179, 0.842);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.fot{
+    font-size: 28px;
+    color: black;
+}
+hr{
+    width: 40%;
+    color: black;
+    position: relative;
+    bottom: 15px;
+    left: 330px;
+ 
+  
+}
+.f-1{
+    
+    position: relative;
+    left: 120px;
+}
+i{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+    bottom: 45px;
+    left: 830px;
+}
+.lists{
+    display: flex;
+   
+   
+    font-size: 16px;
+    position: relative;
+    left: 110px;
+    
+    
 
+}
+.list1 li{
+    list-style: none;
+    padding-bottom: 25px;
+}
+.list1{
+    padding: 15px;
+    padding-right: 150px;
+    
+    
+
+  
+}
+.fot1{
+    color: black;
+    font-size: 22px;
+}
