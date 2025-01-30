@@ -138,6 +138,7 @@ input::placeholder{
     margin-bottom: 40px;
 
     border-radius: 10px;
+    background-image: url(baner1.png);
 }
 .banner2{
     height: 800px;
@@ -145,6 +146,7 @@ input::placeholder{
     width: 95%;
     margin-left: 30px;
     margin-bottom: 40px;
+    background-image: url(banner2.png);
 
     border-radius: 10px;
 }
@@ -154,6 +156,7 @@ input::placeholder{
     width: 95%;
     margin-left: 30px;
     margin-bottom: 40px;
+    background-image: url(banner3.png);
 
     border-radius: 10px;
 }
@@ -163,7 +166,7 @@ input::placeholder{
     width: 95%;
     margin-left: 30px;
     margin-bottom: 40px;
-
+    background-image: url(banner\ 4.png) ;
     border-radius: 10px;
 }
 .fa-search{
